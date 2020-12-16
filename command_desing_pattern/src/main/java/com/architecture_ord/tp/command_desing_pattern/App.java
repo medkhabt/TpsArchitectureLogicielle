@@ -14,6 +14,11 @@ import com.architecture_ord.tp.command_desing_pattern.remote_controller.impl.Sim
  * we have in issue here, we can put a Light object as an argument for TvOnCommand or RadioOnCommand
  * we can solve this problem by adding sub-interfaces, which define which, interface has control over which objects. 
  * for example we have LightInterface that control all the classes that are related to the lighton and off (like versions_ 
+ *
+ * 1 slot : tout les devices Tvs.
+ * 2 slot : tout les devices Light
+ * 3 slot : tout les devices Radio
+ * 
  * @author medkhalil
  *
  */
