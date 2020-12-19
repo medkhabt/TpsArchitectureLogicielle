@@ -30,6 +30,6 @@ public class Transaction {
 
 	private int idCompte; 
 	
-//	@ManyToOne()
-//	private Compte compte; 
+	@ManyToOne()
+	private Compte compte; 
 }

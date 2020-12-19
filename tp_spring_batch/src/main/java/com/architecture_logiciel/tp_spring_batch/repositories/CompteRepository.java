@@ -7,5 +7,4 @@ import com.architecture_logiciel.tp_spring_batch.entities.Compte;
 
 @Repository
 public interface CompteRepository extends CrudRepository<Compte, Integer>{
-	
 }

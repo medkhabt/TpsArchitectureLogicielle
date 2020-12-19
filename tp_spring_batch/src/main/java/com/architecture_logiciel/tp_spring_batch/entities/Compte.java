@@ -16,6 +16,6 @@ public class Compte {
 	private int idCompte; 
 	private float solde; 
 	
-//	@OneToMany()
-//	private Set<Transaction> transactions = new HashSet<>(); 
+	@OneToMany()
+	private Set<Transaction> transactions = new HashSet<>(); 
 }
