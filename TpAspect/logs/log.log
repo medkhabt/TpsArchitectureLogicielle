@@ -1,0 +1,239 @@
+Enter around
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+before
+Enter around
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+Application.java:8
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+[Ljava.lang.Object;@3551a94
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+initialization(com.aspect.entity.Client(String, Compte))
+Client created
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+com.aspect.entity.Client@2096442d
+Client created
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+com.aspect.entity.Client@2096442d
+Client created
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+com.aspect.entity.Client@2096442d
+Client created
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+la somme retirer: 500.0
+le client500.0
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+la somme retirer: 400.0
+le clientMes
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+Avante Debiter Aspect
+Apres Debiter Aspect
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+************* Retirer une Somme du compte ************
+Client: Mes
+Avante Debiter Aspect
+Apres Debiter Aspect
+-- temps d'execution: 0
+Hello this is a debug message
+Hello this is an info message
+
+Exit around
+after
+before
+Enter around
+************* Retirer une Somme du compte ************
+Client: Mes
+Avante Debiter Aspect
+Apres Debiter Aspect
+La somme retirer est: 400.0
+Le solde restant est: 600.0
+-- temps d'execution: 1
+
+Exit around
+after
+before
+Enter around
+************* Retirer une Somme du compte ************
+Client: Mes
+Avante Debiter Aspect
+Apres Debiter Aspect
+La somme retirer est: 400.0
+Le solde restant est: 600.0
+-- temps d'execution: 1 ms
+
+Exit around
+after
+************* Retirer une Somme du compte ************
+Client: Mes
+La somme retirer est: 400.0
+Le solde restant est: 600.0
+-- temps d'execution: 0 ms
+************* Retirer une Somme du compte ************
+Client: Mes
+La somme retirer est: 400.0
+Le solde restant est: 600.0
+-- temps d'execution: 0 ms
+************* Retirer une Somme du compte ************
+Client: Mes
+Votre solde est insuffisant
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+La somme retiree est: 400.0
+Le solde actuel est: 600.0
+-- temps d'execution: 0 ms
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+Votre solde est insuffisant
+************* Verser une somme d'argent au compte ************
+Client: Mes
+La somme versee est: 200.0
+Le solde actuel est: 800.0
+-- temps d'execution: 0 ms
