@@ -29,12 +29,12 @@ public aspect JournalisationCompteAspect {
 		
 		log.info("************* Retirer une somme d'argent du compte ************");
 		log.info("Client: " + client.getNom());
-		Date startDate = new Date();
+		long tStart = System.currentTimeMillis(); 
 		if(mt < client.getCp().getSolde()) { 
 			Object ret = proceed(mt, client);
 			log.info("La somme retiree est: " + mt);
 			log.info("Le solde actuel est: " + client.getCp().getSolde());
-			log.info("-- temps d'execution: " + (System.currentTimeMillis() - startDate.getTime()) + " ms");
+			log.info("-- temps d'execution: " + (System.currentTimeMillis() - tStart) + " ms");
 			return ret;	
 		}
 		else { 
@@ -47,11 +47,11 @@ public aspect JournalisationCompteAspect {
 		callVerser(mt,client) { 
 		log.info("************* Verser une somme d'argent au compte ************");
 		log.info("Client: " + client.getNom());
-		Date startDate = new Date(); 
+		long tStart = System.currentTimeMillis(); 
 		Object ret = proceed(mt, client); 
 		log.info("La somme versee est: " + mt);
 		log.info("Le solde actuel est: " + client.getCp().getSolde());
-		log.info("-- temps d'execution: " + (System.currentTimeMillis() - startDate.getTime()) + " ms");
+		log.info("-- temps d'execution: " + (System.currentTimeMillis() - tStart) + " ms");
 		return ret; 
 	}
 	

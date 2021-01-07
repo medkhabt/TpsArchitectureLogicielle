@@ -237,3 +237,29 @@ Client: Mes
 La somme versee est: 200.0
 Le solde actuel est: 800.0
 -- temps d'execution: 0 ms
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+La somme retiree est: 400.0
+Le solde actuel est: 600.0
+-- temps d'execution: 0 ms
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+Votre solde est insuffisant
+************* Verser une somme d'argent au compte ************
+Client: Mes
+La somme versee est: 200.0
+Le solde actuel est: 800.0
+-- temps d'execution: 0 ms
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+La somme retiree est: 400.0
+Le solde actuel est: 600.0
+-- temps d'execution: 1 ms
+************* Retirer une somme d'argent du compte ************
+Client: Mes
+Votre solde est insuffisant
+************* Verser une somme d'argent au compte ************
+Client: Mes
+La somme versee est: 200.0
+Le solde actuel est: 800.0
+-- temps d'execution: 0 ms
